@@ -1,14 +1,12 @@
 """
-================================================
 CHỦ ĐỀ: LỌC NHIỄU TÍN HIỆU ÂM THANH GIẢ LẬP
 Mục tiêu:
  - Tạo tín hiệu âm thanh ảo (giọng nói mô phỏng bằng sóng sin)
  - Thêm nhiễu trắng và nhiễu 50Hz
  - Lọc bằng bộ lọc FIR và IIR
  - So sánh kết quả lọc (đồ thị & âm thanh)
-------------------------------------------------
+ 
 Ngôn ngữ: Python
-================================================
 """
 
 import numpy as np
@@ -127,3 +125,4 @@ except Exception:
     print("# Không thể mở ảnh tự động, hãy mở thủ công.")
 
 print("\n# Hoàn tất chương trình lọc và lưu kết quả.")
+
