@@ -6,6 +6,7 @@
 %   - So sánh kết quả lọc (đồ thị & âm thanh)
 %  
 %  Ngôn ngữ: MATLAB
+%  Thành viên: Bùi Ngọc Hải - Nguyễn Anh Quân - Đoàn Xuân Quyền
 
 
 clc; clear; close all;
