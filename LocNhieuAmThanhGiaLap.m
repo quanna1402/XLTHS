@@ -1,13 +1,12 @@
-%% ================================================
 %  CHỦ ĐỀ: LỌC NHIỄU TÍN HIỆU ÂM THANH GIẢ LẬP
 %  Mục tiêu:
 %   - Tạo tín hiệu âm thanh ảo (giọng nói mô phỏng bằng sóng sin)
 %   - Thêm nhiễu trắng và nhiễu 50Hz
 %   - Lọc bằng bộ lọc FIR và IIR
 %   - So sánh kết quả lọc (đồ thị & âm thanh)
-%  ------------------------------------------------
+%  
 %  Ngôn ngữ: MATLAB
-%  ------------------------------------------------
+
 
 clc; clear; close all;
 
