@@ -64,14 +64,14 @@ legend; grid on;
 title('Phổ biên độ tín hiệu trước và sau lọc');
 
 #️ 7. NGHE KẾT QUẢ
-disp('▶️ Phát tín hiệu có nhiễu...');
+disp('# Phát tín hiệu có nhiễu...');
 sound(x_noisy, Fs); pause(3);
 
-disp('▶️ Phát tín hiệu sau lọc FIR...');
+disp('# Phát tín hiệu sau lọc FIR...');
 sound(y_fir, Fs); pause(3);
 
-disp('▶️ Phát tín hiệu sau lọc IIR...');
+disp('# Phát tín hiệu sau lọc IIR...');
 sound(y_iir, Fs);
 
-disp('✅ Hoàn tất! Đã lọc và so sánh FIR/IIR cho tín hiệu giả lập.');
+disp('# Hoàn tất! Đã lọc và so sánh FIR/IIR cho tín hiệu giả lập.');
 
