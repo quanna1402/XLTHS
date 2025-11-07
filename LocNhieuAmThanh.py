@@ -7,6 +7,7 @@ Mục tiêu:
  - So sánh kết quả lọc (đồ thị & âm thanh)
  
 Ngôn ngữ: Python
+Thành viên: Bùi Ngọc Hải - Nguyễn Anh Quân - Đoàn Xuân Quyền
 """
 
 import numpy as np
@@ -125,4 +126,5 @@ except Exception:
     print("# Không thể mở ảnh tự động, hãy mở thủ công.")
 
 print("\n# Hoàn tất chương trình lọc và lưu kết quả.")
+
 
